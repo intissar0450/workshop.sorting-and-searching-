@@ -1,0 +1,32 @@
+PROCEDURE swap(a,b:integer )
+VAR
+   temp:integer
+  BEGIN
+  temp:=a  
+  a:=b  
+  b:=temp  
+  END
+
+  ALGORITHM sort
+
+  VAR
+    i,j: integer
+    arr:=array_of integer
+    n:integer
+  BEGIN
+  read(arr)
+  n:=arr.length-1
+FOR i FROM 1 TO  n STEP  step 1 DO
+  FOR  j FROM 0 TO n-1 STEP  step 1 DO 
+  IF (arr[j],arr[j+1]) THEN 
+  END_IF
+  END_IF
+  END_FOR
+  WRITE ("array has been sorted,arr")
+  END
+
+
+    
+
+
+
